@@ -1,0 +1,63 @@
+.checkout-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-form label {
+    margin-bottom: 5px;
+}
+
+/* checkout.css */
+
+.payment-method-button.selected {
+    background-color: #007bff;
+    color: white;
+}
+.payment-method-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.payment-method-button img {
+    width: auto;
+    height: 55px;
+    flex-direction:column;
+}
+
+/* Additional styles for button hover effect */
+.payment-method-button:hover img {
+    transform: scale(1.1);
+    /* Increase size on hover */
+}
+.checkout-form input,
+.checkout-form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.checkout-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;    
+}
+
+.checkout-form button:hover {
+    background-color: #006eff;
+}
